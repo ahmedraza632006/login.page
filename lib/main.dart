@@ -10,7 +10,6 @@ void main() {
   runApp(const MyApp());
 }
 
-// MAIN APP
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -30,7 +29,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// WELCOME PAGE
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});
 
@@ -566,7 +564,6 @@ class _LoginPageState extends State<LoginPage> {
   }
 }
 
-// PROFILE PAGE
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
